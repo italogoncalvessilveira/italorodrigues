@@ -1,6 +1,8 @@
-amora
+﻿amora
 abacaxi
 morango
 banana
 
 melão
+melancia
+2maças
