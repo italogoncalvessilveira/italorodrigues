@@ -2,4 +2,4 @@ amora
 abacaxi
 morango
 banana
-uva
+melancia
