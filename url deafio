@@ -1,0 +1,159 @@
+<div class="imagemfundo">
+    <div class="imagemsobrenos">
+       <div class="sobrenos">
+        <h1>Sobre nós</h1><br>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum perspiciatis,<br>
+           dolor eveniet nemo quod esse aliquam consectetur, qui voluptate repellendus molestiae<br>
+           dolore autem odio, quidem magni corrupti? Incidunt, tempora!<br>
+           Earum labore ea esse enim dolore consectetur cumque doloribus<br> 
+           debitis voluptas harum nihil deleniti recusandae molestias<br>
+           aspernatur adipisci in, nobis accusantium aliquam<br>
+           ipsum dolor sit amet consectetur adipisicing elit.<br>
+           Ipsam fugit sit officiis, quasi aut distinctio,<br>
+           iste doloremque reprehenderit optio, mollitia ducimus<br>
+           ullam nisi magni! Est obcaecati libero suscipit eveniet voluptas<br>
+      </div>
+    </div>
+  
+<br>
+    
+    
+<div class="solucoes">
+    <h1>Nossas soluções</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> 
+    Earum labore ea esse enim dolore consectetur cumque doloribus<br> 
+    debitis voluptas harum nihil deleniti recusandae molestias<br>
+    aspernatur adipisci in, nobis accusantium aliquam<br>
+    ipsum dolor sit amet consectetur adipisicing elit.<br>
+    Ipsam fugit sit officiis, quasi aut distinctio,<br>
+     iste doloremque reprehenderit optio, mollitia ducimus<br>
+     ullam nisi magni! Est obcaecati libero suscipit eveniet voluptas<br>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+     Temporibus, minima? Excepturi, blanditiis quas.Quas molestiae<br>
+     officia ut cum voluptates repudiandae deserunt similique asperiores,<br> 
+     voluptatem ipsam quia harum doloribus vel. Delectus.</p><br>
+     <img id="imagem4" src="./img/solucoes.jpg">
+     
+
+    
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  <div class="equipe">,
+    
+    <h1>Nossa equipe</h1>
+         <img id="imagem1" src="./img/imagem2.png">
+         <img id="imagem2" src="./img/imagem1.png">
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisi<br>
+    ,ipsum dolor sit amet consectetur adipisicing elit<br>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> 
+    Tempore, reiciendis. Dicta expedita debitis pariatur omnis <br>
+    ratione nisi, laborum quibusdam aut! Ducimus non quod corrupti<br>
+    nostrum, assumenda quam illo. A, quos! Lorem, ipsum dolor sit<br>
+    amet consectetur adipisicing elit. Numquam, exercitationem corporis.<br>
+    Iste facere quibusdam obcaecati excepturi adipisci maiores<br>
+    provident sint! Eveniet autem minus voluptatem reiciendis<br>
+    maiores quidem asperiores officiis sint.</p><br>
+    
+        
+</div>
+<br><br><br><br><br><br>
+</div>
+
+
+
+
+/*CSS desafio */
+.imagemfundo{
+    width: 230%;
+    height: 100%;
+    background-image: url(./img/imagem3.webp);
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr ;
+    grid-template-rows:  37% 37% 25%;
+    grid-template-areas:
+    "s e"
+    "n e"
+    "n e"
+    "n e";
+
+}
+.sobrenos{
+     grid-area: s;
+    
+}
+
+.sobrenos h1{
+    color: grey;
+    -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 1.3px;
+   
+}
+  
+
+.solucoes{
+   grid-area: e;
+   text-align: center;
+   margin-right: 30%;
+   
+}
+
+.solucoes h1{
+    color: grey;
+    -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 1.3px;
+}
+
+.solucoes p{
+    margin-top: 2%;
+}
+
+
+.equipe{
+    grid-area: n;
+    
+}
+
+.equipe h1{
+   color: grey;
+   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 1.3px;
+   
+}
+
+.equipe p{
+    margin-top: 18%;
+}
+
+#imagem1{
+    width:46%;
+    height:35%;
+    float: left;
+    margin-left: 30px;
+}
+
+#imagem2{
+    width: 46%;
+    height: 35%;
+    float: right;
+    margin-right: 30px;
+   
+}
+
+#imagem4{
+    width: 35%;
+    height: 60%;
+    float:left;
+    margin-left: 130px;
+}
+
+
+
+
+
+
